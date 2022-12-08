@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+      integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <title>Lomzari`s Todo List</title>
+  </head>
+  <body>
+    <div class="container">
+      <form action="">
+        <h1>Lomzari`s Todo List</h1>
+
+        <div class="add-task">
+          <input class="task-input" type="text" placeholder="new task" />
+          <button class="add-btn">ADD</button>
+        </div>
+        <div class="help">
+          <p></p>
+        </div>
+
+        <div class="tasks-container"></div>
+        <div class="clear">
+          <button class="clear-btn">clear all</button>
+        </div>
+        <div class="clear-done">
+          <button class="clear-done-btn">clear all done</button>
+        </div>
+      </form>
+    </div>
+
+    <script defer src="./app.js"></script>
+    <script defer src="./db.js"></script>
+  </body>
+</html>
